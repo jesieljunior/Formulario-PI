@@ -1,60 +1,66 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https: //fonts.googleapis.com/css2? família= Poppins:ital,wght@0,400;0,900;1,700 & display=swap" rel="stylesheet">
-    <title>Formulario 2</title>
-</head>
-<body>
-    <div class="container">
-        <div class="header">
-            <h2>Criar uma conta</h2>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <meta name="viewport"content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="style.css">
+
+        <title>Login</title>
+
+    </head>
+
+    <body>
+
+        <div id="login">
+
+            <form class="card">
+
+                <div class="card-header">
+
+                    <h2>Login</h2>
+
+                </div>
+
+                <div class="card-content">
+
+                    <div class="card-content-area">
+
+                        <label for="usuario">Usuário</label>
+
+                        <input type="text" id="usuario" autocomplete="off">
+
+                    </div>
+
+                    <div class="card-content-area">
+
+                        <label for="password">Senha</label>
+
+                        <input type="password" id="password" autocomplete="off">
+
+                    </div>
+
+                </div>
+
+                <div class="card-footer">
+
+                    <input type="submit" value="login" class="submit">
+
+                    <a href="#" class="recuperar_senha">Esqueceu a senha?</a>
+                  
+                    <a href="#" class="Criar cadastro">crie uma conta</a>
+                </div>
+
+            </form>
+
         </div>
-        <form id="form" class="form">
-           <div class="form-control ">
-                <label for="username">Nome de usuário</label>
-                <input type="text" id="username" placeholder="Digite seu nome de usuario..."/>
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
-                <small>Mensagem de erro</small>
-           </div>
 
-           <div class="form-control ">
-            <label for="Email">Email</label>
-            <input type="text" id="username" placeholder="Digite seu Email..."/>
-            <i class="fas fa-exclamation-circle"></i>
-            <i class="fas fa-check-circle"></i>
-            <small>Mensagem de erro</small>
-       </div>
+    </body>
 
-       
-       <div class="form-control ">
-        <label for="password">Senha</label>
-        <input type="text" id="password" placeholder="Digite sua Senha..." />
-        <i class="fas fa-exclamation-circle"></i>
-        <i class="fas fa-check-circle"></i>
-        <small>Mensagem de erro</small>
-     </div>
-
-     <div class="form-control">
-        <label for="password-confirmation">Confrimação de Senha</label>
-        <input type="text" id="password-confirmation"placeholder="Digite a senha novamente..." />
-        <i class="fas fa-exclamation-circle"></i>
-        <i class="fas fa-check-circle"></i>
-        <small>Mensagem de erro</small>
-     </div>
-
-     <button type="submit">Enviar</button>
-        </form>
-    </div> 
-    
-    <script src="https://kit.fontawesome.com/ceb2b2caa4.js" crossorigin="anonymous"></script>
-    <script src="./scrpt.js">
-    </script>
-</body>
 </html>
